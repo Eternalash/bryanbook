@@ -4,9 +4,8 @@
 
 ## JAVA
 
-* [JVM](java/jvm.md)
-* [调优](java/tiao-you.md)
-* [Untitled](java/untitled.md)
+* [JVM](java/jvm/README.md)
+  * [调优](java/jvm/tiao-you.md)
 
 ## 编程之美
 
@@ -14,8 +13,8 @@
 
 ## DataBase
 
-* [Mysql](database/mysql.md)
-* [优化面试](database/you-hua-mian-shi.md)
+* [Mysql](database/mysql/README.md)
+  * [优化面试](database/mysql/you-hua-mian-shi.md)
 
 ## Network Technology
 
