@@ -30,5 +30,5 @@
 
 ## 分布式
 
-* [分布式事务](fen-bu-shi/fen-bu-shi-shi-wu.md)
+* [事务](fen-bu-shi/fen-bu-shi-shi-wu.md)
 
