@@ -1,4 +1,6 @@
-# Table of contents
+# Summary
+
+## R.S.O.T
 
 * [Initial page](README.md)
 
@@ -11,6 +13,10 @@
 ## 编程之美
 
 * [Design Pattern](bian-cheng-zhi-mei/design-pattern.md)
+
+## 分布式
+
+* [事务](fen-bu-shi/fen-bu-shi-shi-wu.md)
 
 ## DataBase
 
@@ -27,8 +33,4 @@
   * [Nginx](tools-and-doc/brew/nginx.md)
   * [aria2](tools-and-doc/brew/aria2.md)
 * [Maven](tools-and-doc/maven.md)
-
-## 分布式
-
-* [事务](fen-bu-shi/fen-bu-shi-shi-wu.md)
 
