@@ -35,6 +35,10 @@
 * [Mysql](database/mysql/README.md)
   * [优化面试](database/mysql/you-hua-mian-shi.md)
 
+## 架构
+
+* [服务注册发现](jia-gou/fu-wu-zhu-ce-fa-xian.md)
+
 ## Network Technology
 
 * [3次握手，4次挥手](network-technology/3-ci-wo-shou-4-ci-hui-shou.md)
