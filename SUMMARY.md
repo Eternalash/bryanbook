@@ -1,8 +1,10 @@
-# Summary
+# Table of contents
+
+* [Introduction](README.md)
 
 ## R.S.O.T
 
-* [Initial page](README.md)
+* [Initial page](r.s.o.t/readme.md)
 
 ## JAVA
 
@@ -16,7 +18,17 @@
 
 ## 分布式
 
-* [事务](fen-bu-shi/fen-bu-shi-shi-wu.md)
+* [分布式事务模式](fen-bu-shi/fen-bu-shi-shi-wu-mo-shi/README.md)
+  * [AT](fen-bu-shi/fen-bu-shi-shi-wu-mo-shi/at.md)
+* [分布一致性算法](fen-bu-shi/fen-bu-yi-zhi-xing-suan-fa/README.md)
+  * [Paxos](fen-bu-shi/fen-bu-yi-zhi-xing-suan-fa/paxos.md)
+  * [Raft](fen-bu-shi/fen-bu-yi-zhi-xing-suan-fa/raft.md)
+  * [ZAB](fen-bu-shi/fen-bu-yi-zhi-xing-suan-fa/zab.md)
+  * [Gossip](fen-bu-shi/fen-bu-yi-zhi-xing-suan-fa/gossip.md)
+* [事务理论](fen-bu-shi/fen-bu-shi-shi-wu/README.md)
+  * [2PC](fen-bu-shi/fen-bu-shi-shi-wu/2pc.md)
+  * [TCC](fen-bu-shi/fen-bu-shi-shi-wu/tcc.md)
+  * [SAGA](fen-bu-shi/fen-bu-shi-shi-wu/saga.md)
 
 ## DataBase
 
