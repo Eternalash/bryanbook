@@ -17,11 +17,11 @@ description: 本地事务->分布式事务
 
 在本地事务中，服务和资源在事务的包裹下可以看做是一体的：
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 我们的本地事务由资源管理器：
 
-![](../../.gitbook/assets/image.png)
+![](../.gitbook/assets/image.png)
 
 而事务的ACID是通过InnoDB日志和锁来保证。事务的隔离性是通过数据库锁的机制实现的，持久性通过redo log（重做日志）来实现，原子性和一致性通过Undo log来实现。UndoLog的原理很简单，为了满足事务的原子性，在操作任何数据之前，首先将数据备份到一个地方（这个存储数据备份的地方称为UndoLog）。然后进行数据的修改。如果出现了错误或者用户执行了ROLLBACK语句，系统可以利用Undo Log中的备份将数据恢复到事务开始之前的状态。 和Undo Log相反，RedoLog记录的是新数据的备份。在事务提交前，只要将RedoLog持久化即可，不需要将数据持久化。当系统崩溃时，虽然数据没有持久化，但是RedoLog已经持久化。系统可以根据RedoLog的内容，将所有数据恢复到最新的状态。
 
@@ -29,9 +29,9 @@ description: 本地事务->分布式事务
 
 #### 分布式事务产生的原因：service产生多个节点，resource产生多个节点
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 ### 分布式事务的基础
 
