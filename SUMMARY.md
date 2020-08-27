@@ -12,6 +12,10 @@
 * [JVM](java/jvm/README.md)
   * [调优](java/jvm/tiao-you.md)
 
+## 算法
+
+* [LeetCode](suan-fa/leetcode.md)
+
 ## 编程之美
 
 * [Design Pattern](bian-cheng-zhi-mei/design-pattern.md)
