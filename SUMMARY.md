@@ -22,6 +22,7 @@
 
 ## 分布式
 
+* [Kafka](fen-bu-shi/kafka.md)
 * [事务理论](fen-bu-shi/fen-bu-shi-shi-wu.md)
 * [分布一致性算法](fen-bu-shi/fen-bu-yi-zhi-xing-suan-fa/README.md)
   * [Paxos](fen-bu-shi/fen-bu-yi-zhi-xing-suan-fa/paxos.md)
